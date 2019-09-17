@@ -11,10 +11,11 @@
   <body>
 
     <div>
-      <h1 id="header">San Diego Top Spots</h1>
+      <h1 id="header">San Diego Top Spots <br> 📍</h1>
+      <div id="map">
+      </div>
     </div>
-    <div id="map">
-    </div>
+
 
     <div class="container2">
       <table>
@@ -22,13 +23,16 @@
           <tr>
             <th class="comlumnhead">Place</th>
             <th class="comlumnhead">Description </th>
-            <th class="comlumnhead">Link 📍</th>
+            <th class="comlumnhead">Link</th>
           </tr>
         </thead>
       </table>
     </div>
+    <div id='coordinates-father'></div>
+    </div>
 
     <script src="main.js" charset="utf-8"></script>
+    <script src="maps.js" charset="utf-8"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVdQU3T3esoln1k7cz_q1JZY5ntPuA638&callback=initMap"
     async defer></script>
 
